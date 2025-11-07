@@ -12,12 +12,12 @@ router.get('/', cors(), function(req, res, next) {
     if (date == '2021-01-21') {
 
         const json = {
-            copywrite: 'History of the Universe',
-            date: today,
-            explanation: 'A three hour video at YouTube called The Ultimate Guide To Absolutely Everything In The Universe',
-            media_type: 'image',
+            copywrite: 'Video Credit: NASA, JHUAPL, Naval Research Lab, Parker Solar Probe; Processing: Avi Solomon',
+            date: '2021-01-21',
+            explanation: 'Parker: Sounds of the Solar Wind',
+            media_type: 'video',
             title: 'Temporary Placeholder Astronomy Picture of the Day',
-            url: 'https://www.youtube.com/watch?v=2BVqksYJ2yw'
+            url: 'https://www.youtube.com/embed/hgzGET6owYk'
         }
         res.json(json)
     }
